@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.flex {
+    display: flex;
+    object-fit: cover;
+
+}
+
+.flex>div {
+    width: 50%;
+    height: 100vh;
+}
+
+.flex>img {
+    width: 50%;
+    height: 100vh;
+}
+
+.PartD {
+    padding-left: 130px;
+    padding-top: 40px;
+    display: flex;
+}
+
+.Texto {
+    padding-top: 100px;
+}
+
+.Texto>h1 {
+    font-size: 36px;
+    font-family: 'Titillium Web', sans-serif;
+    padding-bottom: 20px;
+}
+
+.Texto>p {
+    font-size: 16px;
+    font-family: 'Titillium Web', sans-serif;
+    color: #475569;
+    padding-right: 40px;
+}
+
+.Form {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.Email {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Email>label {
+    font-size: 14px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.Email>input {
+    padding: 16px 12px 16px 12px;
+    box-sizing: border-box;
+}
+
+.Senha {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Senha>input {
+    padding: 16px 12px 16px 12px;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.Form>button {
+    padding: 16px 24px 16px 24px;
+    background-color: #7C3AED;
+    color: white;
+    box-sizing: border-box;
+}
+
+.Label-senha {
+    font-size: 14px;
+    font-family: 'Titillium Web', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.Eye {
+    position: relative;
+}
+
+.Eye>img {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.Eye>input {
+    width: 100%;
+    padding: 16px 12px 16px 12px;
+    font-family: 'Titillium Web', sans-serif;
+    box-sizing: border-box;
+}
+
+.Label-senha>a {
+    color: #7C3AED;
+}
+
+.create-acount {
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+    padding-top: 20px;
+    font-family: 'Titillium Web', sans-serif;
+
+}
